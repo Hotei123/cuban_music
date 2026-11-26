@@ -1,1 +1,3 @@
 I want you to use the JSON files in data/raw in order to download the songs you find in YouTube matching its titles, and being as close to the original versions as possible. Keep only one song per title. I want to be able to resume the downloads if I stop the search by hand. When a song is downloaded from YouTube, it should be converted to MP3 format. There should also be an updated and Markdown human-readable index of all downloaded songs, with links to the MP3 files.
+
+Also, don't wait until having a full list of songs for start downloading them. Instead of that, do both things in parallel, saving the downloaded and converted to MP3 songs into folder "songs", in a subfolder corresponding to the author.
