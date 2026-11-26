@@ -21,9 +21,11 @@ from __future__ import annotations
 import argparse
 import json
 import math
+import os
 import re
 import signal
 import sys
+import tempfile
 import threading
 import unicodedata
 from collections import defaultdict
@@ -313,11 +315,32 @@ def load_state(path: Path) -> dict:
     return data
 
 
-def save_json(path: Path, payload: dict) -> None:
+def atomic_write(path: Path, text: str) -> None:
+    """Replace path with text, using a private temporary file in the same directory.
+
+    A shared name such as download_state.json.tmp is removed by whichever
+    writer renames it first, so a second writer then fails with FileNotFoundError.
+    """
     path.parent.mkdir(parents=True, exist_ok=True)
-    temporary = path.with_suffix(path.suffix + ".tmp")
-    temporary.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
-    temporary.replace(path)
+    handle = tempfile.NamedTemporaryFile(
+        mode="w",
+        encoding="utf-8",
+        dir=path.parent,
+        prefix=f".{path.name}.",
+        delete=False,
+    )
+    temporary = Path(handle.name)
+    try:
+        with handle:
+            handle.write(text)
+        os.replace(temporary, path)
+    except BaseException:
+        temporary.unlink(missing_ok=True)
+        raise
+
+
+def save_json(path: Path, payload: dict) -> None:
+    atomic_write(path, json.dumps(payload, ensure_ascii=False, indent=2))
 
 
 def title_similarity(wanted: str, video_title: str) -> float:
@@ -556,9 +579,32 @@ def write_index(state: dict) -> None:
 
 
 def save_json_text(path: Path, text: str) -> None:
-    temporary = path.with_suffix(path.suffix + ".tmp")
-    temporary.write_text(text, encoding="utf-8")
-    temporary.replace(path)
+    atomic_write(path, text)
+
+
+def other_downloader_pids() -> list[int]:
+    """Return pids of other Python processes running this script."""
+    me = os.getpid()
+    found: list[int] = []
+    proc = Path("/proc")
+    if not proc.is_dir():
+        return found
+    for entry in proc.iterdir():
+        if not entry.name.isdigit():
+            continue
+        pid = int(entry.name)
+        if pid == me:
+            continue
+        try:
+            parts = (entry / "cmdline").read_bytes().decode(errors="replace").split("\0")
+        except OSError:
+            continue
+        names = [Path(part).name for part in parts if part]
+        # The program must be Python. Matching any "python" argument also
+        # matches the parent `uv run python download_songs.py` process.
+        if names and names[0].startswith("python") and "download_songs.py" in names[1:]:
+            found.append(pid)
+    return found
 
 
 def remember(state: dict, key: str, payload: dict) -> None:
@@ -767,6 +813,13 @@ def handle_stop(signum, _frame) -> None:
 
 
 def run(workers: int, limit: int | None, search_count: int) -> None:
+    others = other_downloader_pids()
+    if others:
+        pids = ", ".join(str(pid) for pid in others)
+        raise SystemExit(
+            f"Another downloader is already running (pid {pids}). "
+            "Stop it before starting another; both write data/download_state.json."
+        )
     signal.signal(signal.SIGINT, handle_stop)
     signal.signal(signal.SIGTERM, handle_stop)
     composers = load_composers(COMPOSERS_PATH)
@@ -793,26 +846,28 @@ def run(workers: int, limit: int | None, search_count: int) -> None:
     def producer() -> None:
         queued = 0
         skipped = 0
-        for song in songs:
-            if STOP.is_set():
-                break
-            key = title_key(song.get("title") or "")
-            found = find_downloaded(state, key, local)
-            if should_skip(state, key, local):
-                if found is not None:
-                    note_existing(state, song, composers, found)
-                skipped += 1
-                continue
-            if not put_item(song):
-                break
-            queued += 1
-            if limit is not None and queued >= limit:
-                break
-        with counts_lock:
-            counts["skipped"] += skipped
-            counts["queued"] = queued
-        for _ in range(workers):
-            put_item(None)
+        try:
+            for song in songs:
+                if STOP.is_set():
+                    break
+                key = title_key(song.get("title") or "")
+                found = find_downloaded(state, key, local)
+                if should_skip(state, key, local):
+                    if found is not None:
+                        note_existing(state, song, composers, found)
+                    skipped += 1
+                    continue
+                if not put_item(song):
+                    break
+                queued += 1
+                if limit is not None and queued >= limit:
+                    break
+        finally:
+            with counts_lock:
+                counts["skipped"] += skipped
+                counts["queued"] = queued
+            for _ in range(workers):
+                put_item(None)
 
     def worker() -> None:
         while True:

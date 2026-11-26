@@ -4,6 +4,7 @@ __pycache__/
 *.tmp
 
 # Audio and partial downloads stay local. The markdown index is tracked.
+songs/.INDEX.md.*
 songs/**/*.mp3
 songs/**/*.part
 songs/**/*.webm
@@ -14,5 +15,6 @@ songs/**/*.mkv
 songs/**/*.mp4
 
 data/download_state.json
+data/.download_state.json.*
 data/download.log
 data/download.pid
