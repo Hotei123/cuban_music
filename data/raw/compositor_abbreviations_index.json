@@ -1,0 +1,1363 @@
+{
+  "source": "FIU Libraries -- Encyclopedic Discography of Cuban Music 1925-1960 (Indice De Abreviaturas De Compositores)",
+  "collision_notes_volume_1898_1925_vs_1925_1960": [
+    {
+      "abbreviation": "AC",
+      "volume_1": "Adolfo Colombo",
+      "volume_2": "Alvaro Carrillo"
+    },
+    {
+      "abbreviation": "AD",
+      "volume_1": "Antonio Domini",
+      "volume_2": "Abel Domínguez"
+    },
+    {
+      "abbreviation": "AO",
+      "volume_1": "Adolfo Otero",
+      "volume_2": "Armando Oréfiche"
+    },
+    {
+      "abbreviation": "AR",
+      "volume_1": "Antonio Ma. Romeu o Armando Romeu",
+      "volume_2": "Arsenio Rodríguez"
+    },
+    {
+      "abbreviation": "AV",
+      "volume_1": "Armando Valdés Torres",
+      "volume_2": "Abelardo Valdés"
+    },
+    {
+      "abbreviation": "BL",
+      "volume_1": "Bienvenido León",
+      "volume_2": "Belisario López"
+    },
+    {
+      "abbreviation": "BV",
+      "volume_1": "Blanca Vázquez",
+      "volume_2": "Bebo Valdés"
+    },
+    {
+      "abbreviation": "CG",
+      "volume_1": "Claudio García",
+      "volume_2": "Carlos Gardel"
+    },
+    {
+      "abbreviation": "ET",
+      "volume_1": "Eloisa Trías",
+      "volume_2": "Esteban Taronjí"
+    },
+    {
+      "abbreviation": "FB",
+      "volume_1": "Francisco Bas",
+      "volume_2": "Federico Baena"
+    },
+    {
+      "abbreviation": "FR",
+      "volume_1": "Francisco Robreño",
+      "volume_2": "Facundo Rivero"
+    },
+    {
+      "abbreviation": "GR",
+      "volume_1": "Gustavo Robreño",
+      "volume_2": "Gonzalo Roig"
+    },
+    {
+      "abbreviation": "JB",
+      "volume_1": "José Belén Puig",
+      "volume_2": "Julio Brito"
+    },
+    {
+      "abbreviation": "JF",
+      "volume_1": "José Figarola",
+      "volume_2": "Joseíto Fernández"
+    },
+    {
+      "abbreviation": "JR",
+      "volume_1": "José Manuel Romero",
+      "volume_2": "Johnny Rodríguez"
+    },
+    {
+      "abbreviation": "LG",
+      "volume_1": "Luz Gil",
+      "volume_2": "Leopoldo González"
+    },
+    {
+      "abbreviation": "LM",
+      "volume_1": "Lola Mayorga",
+      "volume_2": "Luis Marquetti"
+    },
+    {
+      "abbreviation": "MA",
+      "volume_1": "Marcelino Arean",
+      "volume_2": "Mario Alvarez"
+    },
+    {
+      "abbreviation": "MF",
+      "volume_1": "Miguel Failde",
+      "volume_2": "Mercedita Fernández"
+    },
+    {
+      "abbreviation": "MM",
+      "volume_1": "Manuel Maury",
+      "volume_2": "Miguel Matamoros"
+    },
+    {
+      "abbreviation": "ML",
+      "volume_1": "M. de Luis",
+      "volume_2": "Margarita Lecuona"
+    },
+    {
+      "abbreviation": "MR",
+      "volume_1": "Miguel Rojas",
+      "volume_2": "Mario Recio"
+    },
+    {
+      "abbreviation": "MV",
+      "volume_1": "Marín Varona",
+      "volume_2": "Miguelito Valdés"
+    },
+    {
+      "abbreviation": "PC",
+      "volume_1": "Pepe del Campo",
+      "volume_2": "Pablo Cairo"
+    },
+    {
+      "abbreviation": "PJ",
+      "volume_1": "Pilar Jiménez",
+      "volume_2": "Pedro Junco"
+    },
+    {
+      "abbreviation": "RF",
+      "volume_1": "R. Fernández",
+      "volume_2": "Rolando Fundora"
+    },
+    {
+      "abbreviation": "RL",
+      "volume_1": "Regino López",
+      "volume_2": "Rafael Lay"
+    },
+    {
+      "abbreviation": "TR",
+      "volume_1": "Tomás Ramos",
+      "volume_2": "Tradicional"
+    }
+  ],
+  "abbreviations": [
+    {
+      "abbreviation": "AA",
+      "composer": "Arturo Alonso"
+    },
+    {
+      "abbreviation": "AB",
+      "composer": "Alfredo Brito"
+    },
+    {
+      "abbreviation": "LA",
+      "composer": "Luis Arcaraz (me)"
+    },
+    {
+      "abbreviation": "ABo",
+      "composer": "Alberto Boloña"
+    },
+    {
+      "abbreviation": "LB",
+      "composer": "Lorenzo Barcelata (me)"
+    },
+    {
+      "abbreviation": "AC",
+      "composer": "Alvaro Carrillo (me)"
+    },
+    {
+      "abbreviation": "LCR",
+      "composer": "Luis Casas Romero"
+    },
+    {
+      "abbreviation": "AD",
+      "composer": "Abel Domínguez (me)"
+    },
+    {
+      "abbreviation": "LD",
+      "composer": "Luis Demetrio (me)"
+    },
+    {
+      "abbreviation": "ADa",
+      "composer": "Antar Daly"
+    },
+    {
+      "abbreviation": "LF",
+      "composer": "Lino Frías"
+    },
+    {
+      "abbreviation": "ADi",
+      "composer": "Aniceto Díaz"
+    },
+    {
+      "abbreviation": "LG",
+      "composer": "Leopoldo González (es)"
+    },
+    {
+      "abbreviation": "ADR",
+      "composer": "Arturo Díaz Rivero"
+    },
+    {
+      "abbreviation": "LHi",
+      "composer": "Lorenzo Hierrezuelo"
+    },
+    {
+      "abbreviation": "AEO",
+      "composer": "Alfonso Esparza Oteo"
+    },
+    {
+      "abbreviation": "LK",
+      "composer": "Luis Kalaf (rd)"
+    },
+    {
+      "abbreviation": "AG ó AGu",
+      "composer": "Adolfo Guzmán"
+    },
+    {
+      "abbreviation": "LM",
+      "composer": "Luis Marquetti"
+    },
+    {
+      "abbreviation": "AL",
+      "composer": "Agustín Lara (me)"
+    },
+    {
+      "abbreviation": "LMG",
+      "composer": "Luis Martínez Grillán"
+    },
+    {
+      "abbreviation": "AlD",
+      "composer": "Alberto Domínguez"
+    },
+    {
+      "abbreviation": "LP",
+      "composer": "Luis Plá"
+    },
+    {
+      "abbreviation": "AM",
+      "composer": "Antonio Matas"
+    },
+    {
+      "abbreviation": "LR",
+      "composer": "Luis Reyes"
+    },
+    {
+      "abbreviation": "AMg",
+      "composer": "Agustín Magaldi (ar)"
+    },
+    {
+      "abbreviation": "LU",
+      "composer": "Leopoldo Ulloa"
+    },
+    {
+      "abbreviation": "AMo",
+      "composer": "Antonio Morejón"
+    },
+    {
+      "abbreviation": "LV",
+      "composer": "Leocadio Vizcarrondo (pr)"
+    },
+    {
+      "abbreviation": "AMR",
+      "composer": "Antonio María Romeu"
+    },
+    {
+      "abbreviation": "LY",
+      "composer": "Luis Yáñez"
+    },
+    {
+      "abbreviation": "AMz",
+      "composer": "Armando Manzanero (me)"
+    },
+    {
+      "abbreviation": "ANB",
+      "composer": "Alfredo Núñez de Borbón (me)"
+    },
+    {
+      "abbreviation": "AO",
+      "composer": "Armando Oréfiche             M."
+    },
+    {
+      "abbreviation": "AP",
+      "composer": "Arquímedes Pous"
+    },
+    {
+      "abbreviation": "AR",
+      "composer": "Arsenio Rodríguez"
+    },
+    {
+      "abbreviation": "ARi",
+      "composer": "Agustín Ribot"
+    },
+    {
+      "abbreviation": "MA",
+      "composer": "Mario Alvarez"
+    },
+    {
+      "abbreviation": "ARO",
+      "composer": "Arturo R. Ojea"
+    },
+    {
+      "abbreviation": "MAP",
+      "composer": "Miguel Angel Pozo (Clavelito)"
+    },
+    {
+      "abbreviation": "ARu",
+      "composer": "Alberto Ruiz"
+    },
+    {
+      "abbreviation": "MAV",
+      "composer": "Miguel Angel Valladares (me)"
+    },
+    {
+      "abbreviation": "AS",
+      "composer": "Antonio Sánchez"
+    },
+    {
+      "abbreviation": "MaV",
+      "composer": "Marta Valdés"
+    },
+    {
+      "abbreviation": "ASo",
+      "composer": "Alberto Socarrás"
+    },
+    {
+      "abbreviation": "MC",
+      "composer": "Manuel Corona"
+    },
+    {
+      "abbreviation": "AV",
+      "composer": "Abelardo Valdés"
+    },
+    {
+      "abbreviation": "MCo",
+      "composer": "Miguel Companioni"
+    },
+    {
+      "abbreviation": "AVe",
+      "composer": "Alberto Vera"
+    },
+    {
+      "abbreviation": "MCl",
+      "composer": "Mario Clavel (ar)"
+    },
+    {
+      "abbreviation": "AVi",
+      "composer": "Alberto Villalón"
+    },
+    {
+      "abbreviation": "MDJ",
+      "composer": "Mario de Jesús (do)"
+    },
+    {
+      "abbreviation": "AVp",
+      "composer": "Armando Valdespí"
+    },
+    {
+      "abbreviation": "MF",
+      "composer": "Mercedita Fernández"
+    },
+    {
+      "abbreviation": "MFP",
+      "composer": "Mario Fernández Porta"
+    },
+    {
+      "abbreviation": "MG",
+      "composer": "Marcelino Guerra"
+    },
+    {
+      "abbreviation": "MGr",
+      "composer": "María Grever"
+    },
+    {
+      "abbreviation": "MiS",
+      "composer": "Mirta Silva (pr)"
+    },
+    {
+      "abbreviation": "MiV",
+      "composer": "Miguelito Valdés"
+    },
+    {
+      "abbreviation": "BC",
+      "composer": "Bobby Collazo"
+    },
+    {
+      "abbreviation": "ML",
+      "composer": "Margarita Lecuona"
+    },
+    {
+      "abbreviation": "BCa",
+      "composer": "Bobby Capó"
+    },
+    {
+      "abbreviation": "MLu",
+      "composer": "Manuel Luna"
+    },
+    {
+      "abbreviation": "BDJ",
+      "composer": "Benito de Jesús (pr)"
+    },
+    {
+      "abbreviation": "MM",
+      "composer": "Miguel Matamoros"
+    },
+    {
+      "abbreviation": "Bi",
+      "composer": "Bimbi (Máximo Sánchez)"
+    },
+    {
+      "abbreviation": "MMa",
+      "composer": "Manuel Maury"
+    },
+    {
+      "abbreviation": "BJG",
+      "composer": "Bienvenido Julián Gutiérrez"
+    },
+    {
+      "abbreviation": "MMe",
+      "composer": "Mariano Mercerón"
+    },
+    {
+      "abbreviation": "BL",
+      "composer": "Belisario López"
+    },
+    {
+      "abbreviation": "MMo",
+      "composer": "Mariano Mores (ar)"
+    },
+    {
+      "abbreviation": "BM",
+      "composer": "Benny Moré"
+    },
+    {
+      "abbreviation": "MPJ",
+      "composer": "Manuel \"Pulguita\" Jiménez (pr)"
+    },
+    {
+      "abbreviation": "BV",
+      "composer": "Bebo Valdés"
+    },
+    {
+      "abbreviation": "MPr",
+      "composer": "Miguel Prado (me)"
+    },
+    {
+      "abbreviation": "MPS",
+      "composer": "Miguel Puertas Salgado"
+    },
+    {
+      "abbreviation": "MR",
+      "composer": "Mario Recio"
+    },
+    {
+      "abbreviation": "MRA",
+      "composer": "Mario Ruiz Armengol (me)"
+    },
+    {
+      "abbreviation": "MRC",
+      "composer": "Manuel Roque Carbajo (me)"
+    },
+    {
+      "abbreviation": "MRi",
+      "composer": "Mario Rigual"
+    },
+    {
+      "abbreviation": "CA",
+      "composer": "Carlos Argentino (ar)"
+    },
+    {
+      "abbreviation": "MRo",
+      "composer": "Miguel Román"
+    },
+    {
+      "abbreviation": "CAN",
+      "composer": "Canario (pr)"
+    },
+    {
+      "abbreviation": "MS",
+      "composer": "Moisés Simmons"
+    },
+    {
+      "abbreviation": "CC",
+      "composer": "Calixto Callava"
+    },
+    {
+      "abbreviation": "MSi",
+      "composer": "Martín Silveira"
+    },
+    {
+      "abbreviation": "CD",
+      "composer": "Cristóbal Dobal"
+    },
+    {
+      "abbreviation": "MTV",
+      "composer": "María Teresa Vera"
+    },
+    {
+      "abbreviation": "CE",
+      "composer": "Claudio Estrada (me)"
+    },
+    {
+      "abbreviation": "MV",
+      "composer": "Miguelito Valdés"
+    },
+    {
+      "abbreviation": "CG",
+      "composer": "Carlos Gardel (ar)"
+    },
+    {
+      "abbreviation": "CGo",
+      "composer": "Celina González"
+    },
+    {
+      "abbreviation": "ChA",
+      "composer": "Charles Abreu                  N."
+    },
+    {
+      "abbreviation": "ChAl",
+      "composer": "Chago Alvarado (pr)"
+    },
+    {
+      "abbreviation": "ChBP",
+      "composer": "Cheo Belén Puig"
+    },
+    {
+      "abbreviation": "NE",
+      "composer": "Noel Estrada (pr)"
+    },
+    {
+      "abbreviation": "ChM",
+      "composer": "Cheo Marquetti"
+    },
+    {
+      "abbreviation": "NG",
+      "composer": "Neno González"
+    },
+    {
+      "abbreviation": "ChMG",
+      "composer": "Chucho Martínez Gil (me)"
+    },
+    {
+      "abbreviation": "NGA",
+      "composer": "Nené González Allué"
+    },
+    {
+      "abbreviation": "ChN",
+      "composer": "Chucho Navarro (me)"
+    },
+    {
+      "abbreviation": "NGu",
+      "composer": "Nicolás Guillén"
+    },
+    {
+      "abbreviation": "ChO",
+      "composer": "Chico O'Farrill"
+    },
+    {
+      "abbreviation": "NM",
+      "composer": "Nilo Menéndez"
+    },
+    {
+      "abbreviation": "ChP",
+      "composer": "Chano Pozo"
+    },
+    {
+      "abbreviation": "NMi",
+      "composer": "Néstor Mili"
+    },
+    {
+      "abbreviation": "CL",
+      "composer": "Calixto Leicea"
+    },
+    {
+      "abbreviation": "NN",
+      "composer": "Nelson Novarro"
+    },
+    {
+      "abbreviation": "ClF",
+      "composer": "Claudio Ferrer (pr)"
+    },
+    {
+      "abbreviation": "NR",
+      "composer": "Niño Rivera"
+    },
+    {
+      "abbreviation": "CP",
+      "composer": "Carlos Puebla"
+    },
+    {
+      "abbreviation": "CPL",
+      "composer": "César Portillo de la Luz"
+    },
+    {
+      "abbreviation": "CR",
+      "composer": "Celina y Reutilio              Ñ."
+    },
+    {
+      "abbreviation": "CRi",
+      "composer": "Carlos Rigual"
+    },
+    {
+      "abbreviation": "CRu",
+      "composer": "Candito Ruiz"
+    },
+    {
+      "abbreviation": "ÑC",
+      "composer": "Ñico Cevedo"
+    },
+    {
+      "abbreviation": "CS",
+      "composer": "Cuco Sánchez (me)"
+    },
+    {
+      "abbreviation": "ÑR",
+      "composer": "Ñico Rojas"
+    },
+    {
+      "abbreviation": "CV",
+      "composer": "Carmelo Velázquez (me)"
+    },
+    {
+      "abbreviation": "ÑS",
+      "composer": "Ñico Saquito"
+    },
+    {
+      "abbreviation": "CVM",
+      "composer": "Concha Valdés Miranda"
+    },
+    {
+      "abbreviation": "CuC",
+      "composer": "Cuates Castillo (me)"
+    },
+    {
+      "abbreviation": "OA",
+      "composer": "Osvaldo Alburquerque"
+    },
+    {
+      "abbreviation": "OC",
+      "composer": "Oscar Calle"
+    },
+    {
+      "abbreviation": "ODR",
+      "composer": "Orlando de la Rosa"
+    },
+    {
+      "abbreviation": "OE",
+      "composer": "Osvaldo Estivil"
+    },
+    {
+      "abbreviation": "OF",
+      "composer": "Osvaldo Farrés"
+    },
+    {
+      "abbreviation": "DC",
+      "composer": "Domingo Corbacho"
+    },
+    {
+      "abbreviation": "OG",
+      "composer": "Ofelia Guevara"
+    },
+    {
+      "abbreviation": "DF",
+      "composer": "Don Felo (pr)"
+    },
+    {
+      "abbreviation": "OH",
+      "composer": "Oscar Hernández"
+    },
+    {
+      "abbreviation": "DPP",
+      "composer": "Dámaso Pérez Prado"
+    },
+    {
+      "abbreviation": "OL",
+      "composer": "Orestes López"
+    },
+    {
+      "abbreviation": "DR",
+      "composer": "Derechos Reservados"
+    },
+    {
+      "abbreviation": "OM",
+      "composer": "Obdulio Morales"
+    },
+    {
+      "abbreviation": "DS",
+      "composer": "Daniel Santos (pr)"
+    },
+    {
+      "abbreviation": "OP",
+      "composer": "Otilio Portal"
+    },
+    {
+      "abbreviation": "OS",
+      "composer": "Orestes Santos"
+    },
+    {
+      "abbreviation": "EaL",
+      "composer": "Ernestina Lecuona"
+    },
+    {
+      "abbreviation": "EB",
+      "composer": "Emiliano Blez"
+    },
+    {
+      "abbreviation": "PA",
+      "composer": "Plácido Acevedo"
+    },
+    {
+      "abbreviation": "EBo",
+      "composer": "Enrique Bonne"
+    },
+    {
+      "abbreviation": "PB",
+      "composer": "Patricio Ballagas"
+    },
+    {
+      "abbreviation": "EBy",
+      "composer": "Enrique Bryon"
+    },
+    {
+      "abbreviation": "PC",
+      "composer": "Pablo Cairo"
+    },
+    {
+      "abbreviation": "EC",
+      "composer": "Eutimio Casamor"
+    },
+    {
+      "abbreviation": "PD",
+      "composer": "Pepé Delgado"
+    },
+    {
+      "abbreviation": "ED",
+      "composer": "Eusebio Delfín"
+    },
+    {
+      "abbreviation": "PF",
+      "composer": "Pedro Flores (pr)"
+    },
+    {
+      "abbreviation": "EDa",
+      "composer": "Eduardo Davidson"
+    },
+    {
+      "abbreviation": "PG",
+      "composer": "Pedro Guida"
+    },
+    {
+      "abbreviation": "EDu",
+      "composer": "Ernesto Duarte"
+    },
+    {
+      "abbreviation": "PH",
+      "composer": "Pedro Hernández"
+    },
+    {
+      "abbreviation": "PJ",
+      "composer": "Pedro Junco"
+    },
+    {
+      "abbreviation": "EG",
+      "composer": "Eliseo Grenet"
+    },
+    {
+      "abbreviation": "PJz",
+      "composer": "Pedro Jústiz"
+    },
+    {
+      "abbreviation": "EGC",
+      "composer": "Enrique González Castillo"
+    },
+    {
+      "abbreviation": "PLa",
+      "composer": "Pepito Lacomba (pr)"
+    },
+    {
+      "abbreviation": "EJ",
+      "composer": "Enrique Jorrín"
+    },
+    {
+      "abbreviation": "PLV",
+      "composer": "Paquito López Vidal (pr)"
+    },
+    {
+      "abbreviation": "EL",
+      "composer": "Ernesto Lecuona"
+    },
+    {
+      "abbreviation": "PM",
+      "composer": "Pedro Marcano (pr)"
+    },
+    {
+      "abbreviation": "ELa",
+      "composer": "Evelio Lareda"
+    },
+    {
+      "abbreviation": "PO",
+      "composer": "Pablo O'Farrill"
+    },
+    {
+      "abbreviation": "EP",
+      "composer": "Enrique Peña"
+    },
+    {
+      "abbreviation": "PPPCh",
+      "composer": "Pedro Pablo Pérez Chorot"
+    },
+    {
+      "abbreviation": "ER",
+      "composer": "Electo Rosell"
+    },
+    {
+      "abbreviation": "PR",
+      "composer": "Pedro Ramos"
+    },
+    {
+      "abbreviation": "ERo",
+      "composer": "Evelio Rodríguez"
+    },
+    {
+      "abbreviation": "PRi",
+      "composer": "Pituko Rigual"
+    },
+    {
+      "abbreviation": "ES",
+      "composer": "Eduardo Saborit"
+    },
+    {
+      "abbreviation": "PS",
+      "composer": "Palmenio Salazar"
+    },
+    {
+      "abbreviation": "PV",
+      "composer": "Pablo Valenzuela"
+    },
+    {
+      "abbreviation": "ESe",
+      "composer": "Estanislao Serviá"
+    },
+    {
+      "abbreviation": "PVe",
+      "composer": "Pedro Vega"
+    },
+    {
+      "abbreviation": "rdo Sánchez de Fuentes PVi",
+      "composer": "Pedro Vías"
+    },
+    {
+      "abbreviation": "ET",
+      "composer": "Esteban Taronjí (pr)"
+    },
+    {
+      "abbreviation": "PV",
+      "composer": "Polito y Vera"
+    },
+    {
+      "abbreviation": "EV",
+      "composer": "Ernesto Vázquez"
+    },
+    {
+      "abbreviation": "Q,L,Q",
+      "composer": "Quintero, Leon y Quiroga (es)"
+    },
+    {
+      "abbreviation": "FA",
+      "composer": "Fernando Anckermann"
+    },
+    {
+      "abbreviation": "FB",
+      "composer": "Federico Baena (me)"
+    },
+    {
+      "abbreviation": "FBC",
+      "composer": "Felix B. Caignet            R."
+    },
+    {
+      "abbreviation": "FBe",
+      "composer": "Felo Bergaza"
+    },
+    {
+      "abbreviation": "FC",
+      "composer": "Félix Cárdenas"
+    },
+    {
+      "abbreviation": "RB",
+      "composer": "Remberto Becquer"
+    },
+    {
+      "abbreviation": "FCh",
+      "composer": "Félix Chappottin"
+    },
+    {
+      "abbreviation": "RBS",
+      "composer": "Rafael Blanco Suazo"
+    },
+    {
+      "abbreviation": "FD",
+      "composer": "Frank Domínguez"
+    },
+    {
+      "abbreviation": "RC",
+      "composer": "Rafael Cueto"
+    },
+    {
+      "abbreviation": "FF",
+      "composer": "Francisco Fellové"
+    },
+    {
+      "abbreviation": "RCa",
+      "composer": "Ramón Cabrera"
+    },
+    {
+      "abbreviation": "FG",
+      "composer": "Felix González"
+    },
+    {
+      "abbreviation": "RCo",
+      "composer": "Roberto Cole (pr)"
+    },
+    {
+      "abbreviation": "FM",
+      "composer": "Fernando Mulens"
+    },
+    {
+      "abbreviation": "RCz",
+      "composer": "Rudy Calzado"
+    },
+    {
+      "abbreviation": "FNC",
+      "composer": "Felipe Neri Cabrera"
+    },
+    {
+      "abbreviation": "RD",
+      "composer": "Ricardo Díaz"
+    },
+    {
+      "abbreviation": "FR",
+      "composer": "Facundo Rivero"
+    },
+    {
+      "abbreviation": "RDC",
+      "composer": "Rey Díaz Calvet"
+    },
+    {
+      "abbreviation": "FRe",
+      "composer": "Félix Reina"
+    },
+    {
+      "abbreviation": "RE",
+      "composer": "Ramón Espigul"
+    },
+    {
+      "abbreviation": "FRep",
+      "composer": "Francisco Repilado"
+    },
+    {
+      "abbreviation": "REg",
+      "composer": "Richard Egües"
+    },
+    {
+      "abbreviation": "FVL",
+      "composer": "Felipe Valdés Leal (me)"
+    },
+    {
+      "abbreviation": "RF",
+      "composer": "Rolando Fundora"
+    },
+    {
+      "abbreviation": "RGK",
+      "composer": "Ramiro Gómez Kemp"
+    },
+    {
+      "abbreviation": "RGP",
+      "composer": "Ricardo García Perdomo"
+    },
+    {
+      "abbreviation": "RH",
+      "composer": "Rafael Hernández (pr)"
+    },
+    {
+      "abbreviation": "RHi",
+      "composer": "Reynaldo Hierrezuelo"
+    },
+    {
+      "abbreviation": "GC",
+      "composer": "Guty Cárdenas (me)"
+    },
+    {
+      "abbreviation": "RL",
+      "composer": "Rafael Lay"
+    },
+    {
+      "abbreviation": "GCa",
+      "composer": "Guillermo Castillo"
+    },
+    {
+      "abbreviation": "RM",
+      "composer": "Rogelio Martínez"
+    },
+    {
+      "abbreviation": "GCu",
+      "composer": "Gonzalo Curiel (me)"
+    },
+    {
+      "abbreviation": "RO",
+      "composer": "Rafael Ortiz"
+    },
+    {
+      "abbreviation": "GD",
+      "composer": "Gelasio Deliz"
+    },
+    {
+      "abbreviation": "RP",
+      "composer": "Rodrigo Pratts"
+    },
+    {
+      "abbreviation": "GG",
+      "composer": "Graciano Gómez"
+    },
+    {
+      "abbreviation": "RPu",
+      "composer": "Roberto Puentes"
+    },
+    {
+      "abbreviation": "GM",
+      "composer": "Gerardo Martínez"
+    },
+    {
+      "abbreviation": "RRe",
+      "composer": "Ricardo Reverón"
+    },
+    {
+      "abbreviation": "GR",
+      "composer": "Gonzalo Roig"
+    },
+    {
+      "abbreviation": "RRh",
+      "composer": "Rosendo Ruiz hijo (Quevedo)"
+    },
+    {
+      "abbreviation": "GRF",
+      "composer": "Guillermo Rodríguez Fiffe"
+    },
+    {
+      "abbreviation": "RRo",
+      "composer": "Rosendo Rosell"
+    },
+    {
+      "abbreviation": "GRo",
+      "composer": "Gonzalo Roig"
+    },
+    {
+      "abbreviation": "RRp",
+      "composer": "Rosendo Ruiz padre"
+    },
+    {
+      "abbreviation": "GRu",
+      "composer": "Gabriel Ruiz (me)"
+    },
+    {
+      "abbreviation": "RT",
+      "composer": "René Touzet"
+    },
+    {
+      "abbreviation": "GSG",
+      "composer": "Gustavo Sánchez Galarraga"
+    },
+    {
+      "abbreviation": "GU",
+      "composer": "Gilberto Urquiza"
+    },
+    {
+      "abbreviation": "GV",
+      "composer": "Gilberto Valdés             S."
+    },
+    {
+      "abbreviation": "SC",
+      "composer": "Silvio Contreras"
+    },
+    {
+      "abbreviation": "SDK",
+      "composer": "Sergio de Karlo"
+    },
+    {
+      "abbreviation": "SG",
+      "composer": "Sindo Garay"
+    },
+    {
+      "abbreviation": "HA",
+      "composer": "Hilario Ariza"
+    },
+    {
+      "abbreviation": "SK",
+      "composer": "Sergio de Karlo"
+    },
+    {
+      "abbreviation": "HC",
+      "composer": "Hermenegildo Cárdenas"
+    },
+    {
+      "abbreviation": "SM",
+      "composer": "Silvestre Méndez"
+    },
+    {
+      "abbreviation": "HJ",
+      "composer": "Humberto Jauma"
+    },
+    {
+      "abbreviation": "SR",
+      "composer": "Siro Rodríguez"
+    },
+    {
+      "abbreviation": "Hnos.R",
+      "composer": "Hermanos Rigual"
+    },
+    {
+      "abbreviation": "SRa",
+      "composer": "Severino Ramos"
+    },
+    {
+      "abbreviation": "SRe",
+      "composer": "Silvia Rexach (pr)"
+    },
+    {
+      "abbreviation": "SS",
+      "composer": "Sergio González Siaba"
+    },
+    {
+      "abbreviation": "SSu",
+      "composer": "Senén Suárez"
+    },
+    {
+      "abbreviation": "IC",
+      "composer": "Isolina Carrillo"
+    },
+    {
+      "abbreviation": "IF",
+      "composer": "Iván Fernández              T."
+    },
+    {
+      "abbreviation": "IP",
+      "composer": "Ignacio Piñeiro"
+    },
+    {
+      "abbreviation": "IV",
+      "composer": "Ignacio Villa"
+    },
+    {
+      "abbreviation": "TA",
+      "composer": "Tata Alfonso"
+    },
+    {
+      "abbreviation": "TC",
+      "composer": "Tomás Corman"
+    },
+    {
+      "abbreviation": "TCa",
+      "composer": "Tania Castellanos"
+    },
+    {
+      "abbreviation": "TF",
+      "composer": "Tony Ferngo"
+    },
+    {
+      "abbreviation": "TH",
+      "composer": "Tito Henríquez (pr)"
+    },
+    {
+      "abbreviation": "JA",
+      "composer": "Jorge Anckermann"
+    },
+    {
+      "abbreviation": "TM",
+      "composer": "Trini Márquez"
+    },
+    {
+      "abbreviation": "JAM",
+      "composer": "José Antonio Méndez"
+    },
+    {
+      "abbreviation": "TN",
+      "composer": "Tata Nacho (me)"
+    },
+    {
+      "abbreviation": "JAP",
+      "composer": "José Antonio Pinares"
+    },
+    {
+      "abbreviation": "TP",
+      "composer": "Tata Pereira"
+    },
+    {
+      "abbreviation": "JAr",
+      "composer": "Juan Arrondo"
+    },
+    {
+      "abbreviation": "TPR",
+      "composer": "Tomás Ponce Reyes"
+    },
+    {
+      "abbreviation": "JB",
+      "composer": "Julio Brito"
+    },
+    {
+      "abbreviation": "TR",
+      "composer": "Tradicional"
+    },
+    {
+      "abbreviation": "JBa",
+      "composer": "Justi Barreto"
+    },
+    {
+      "abbreviation": "TT",
+      "composer": "Tony Tejera"
+    },
+    {
+      "abbreviation": "JBL",
+      "composer": "Julio Blanco Leonard"
+    },
+    {
+      "abbreviation": "JBT",
+      "composer": "Juan Bruno Tarraza"
+    },
+    {
+      "abbreviation": "JC",
+      "composer": "Julio Cueva                 V."
+    },
+    {
+      "abbreviation": "JCF",
+      "composer": "José Claro Fumero"
+    },
+    {
+      "abbreviation": "JCFo",
+      "composer": "Julio César Fonseca"
+    },
+    {
+      "abbreviation": "VG",
+      "composer": "Virgilio González"
+    },
+    {
+      "abbreviation": "JCM",
+      "composer": "José Carbó Menéndez"
+    },
+    {
+      "abbreviation": "VM",
+      "composer": "Victor Marín Hernández"
+    },
+    {
+      "abbreviation": "JCs",
+      "composer": "José Casamor"
+    },
+    {
+      "abbreviation": "JCu",
+      "composer": "José Curbelo"
+    },
+    {
+      "abbreviation": "JDM",
+      "composer": "Jorge del Moral (me)        W."
+    },
+    {
+      "abbreviation": "JDQ",
+      "composer": "José Dolores Quiñones"
+    },
+    {
+      "abbreviation": "JF",
+      "composer": "Joseito Fernández"
+    },
+    {
+      "abbreviation": "WG",
+      "composer": "Walfrido Guevara"
+    },
+    {
+      "abbreviation": "JFa",
+      "composer": "José Fajardo"
+    },
+    {
+      "abbreviation": "WPL",
+      "composer": "Wilfredo Pío Leiva"
+    },
+    {
+      "abbreviation": "JFi",
+      "composer": "Julián Fiallo"
+    },
+    {
+      "abbreviation": "JG",
+      "composer": "Julio Gutiérrez"
+    },
+    {
+      "abbreviation": "JGG",
+      "composer": "José González Giralt                      X."
+    },
+    {
+      "abbreviation": "JGu",
+      "composer": "Jesús Guerra"
+    },
+    {
+      "abbreviation": "JM",
+      "composer": "Juan Márquez"
+    },
+    {
+      "abbreviation": "XC",
+      "composer": "Xavier Cugat (esp)"
+    },
+    {
+      "abbreviation": "JMa",
+      "composer": "Jorge Masón"
+    },
+    {
+      "abbreviation": "JMC",
+      "composer": "Juan Morell Campos (pr)                   Y."
+    },
+    {
+      "abbreviation": "JMM",
+      "composer": "José Manuel Mateo (dom)"
+    },
+    {
+      "abbreviation": "JMV",
+      "composer": "José Marín Varona"
+    },
+    {
+      "abbreviation": "YyG",
+      "composer": "Yañez y Gómez"
+    },
+    {
+      "abbreviation": "JP",
+      "composer": "Jaime Prats"
+    },
+    {
+      "abbreviation": "JPa",
+      "composer": "Juan Pagés"
+    },
+    {
+      "abbreviation": "JPM",
+      "composer": "Juan Pablo Miranda"
+    },
+    {
+      "abbreviation": "JR",
+      "composer": "Johnny Rodríguez (pr)"
+    },
+    {
+      "abbreviation": "JRS",
+      "composer": "José Ramón Sánchez"
+    },
+    {
+      "abbreviation": "JSM",
+      "composer": "José Sabre Marroquín (me)"
+    },
+    {
+      "abbreviation": "JU",
+      "composer": "José Urfé"
+    },
+    {
+      "abbreviation": "JV",
+      "composer": "Javier Vázquez"
+    },
+    {
+      "abbreviation": "JZ",
+      "composer": "Jorge Zamora"
+    }
+  ]
+}
